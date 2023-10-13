@@ -18,7 +18,8 @@ let package = Package(
             path: "DACircularProgress",
             exclude: [
                 "Info.plist",
-            ]
+            ],
+            publicHeadersPath: ""
         ),
     ]
 )
